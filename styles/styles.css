@@ -2,11 +2,16 @@
     box-sizing: border-box;
    }
 
+
    h1 {
      border-bottom: 2px solid;
      border-color: black;
      padding-bottom: 10px; 
      margin-bottom: 10px; 
+     font-family: "Playfair Display", serif;
+     font-optical-sizing: auto;
+     font-weight: 500;
+     font-style: normal;
     }
 
     h1, h2, h3, h4 {
@@ -40,6 +45,7 @@
     }
     body {
         background: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
    
     img {
@@ -68,8 +74,10 @@
    
     a:hover {
         text-decoration: underline;
+        font-weight: bold;
     }
 
+   
     .standalone-link {
         display: block;
         margin-bottom: 10px
