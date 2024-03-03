@@ -2,20 +2,60 @@
     box-sizing: border-box;
    }
 
+   p {
+    font-family: 'Georgia', serif;
+   }
 
-   h1 {
-     border-bottom: 2px solid;
-     border-color: black;
-     padding-bottom: 10px; 
-     margin-bottom: 10px; 
-     font-family: "Playfair Display", serif;
-     font-optical-sizing: auto;
-     font-weight: 500;
-     font-style: normal;
+body {
+    margin: 10px;
+    padding: 0px;
+}
+
+.header-with-icons {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+ }
+
+ h1 {
+    color:#055d00;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: left;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    
+    /*border-bottom: 2px solid;*/
+    /*border-color: black;*/
+    /*padding-bottom: 10px; */
+   }
+.header-with-icons i {
+    vertical-align: middle;
+ }
+
+ hr {
+    border: 0px;
+    height: 3px;
+    background-color: gray;
+    margin: 0;
+}
+
+.fa-leaf {
+    color: green;
+    font-size: 30px
+    }
+.fa-martini-glass-citrus {
+     color: blueviolet;
+     font-size: 30px
     }
 
-    h1, h2, h3, h4 {
+
+    h2, h3, h4 {
         color: #505050;
+        font-weight: 500;
         margin-top: 10px;
         margin-bottom: 0px;
     }
