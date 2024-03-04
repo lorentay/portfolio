@@ -9,40 +9,33 @@
 body {
     margin: 10px;
     padding: 0px;
+    background: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .header-with-icons {
     display: flex;
     align-items: center;
     padding: 20px;
-
  }
-
  h1 {
     color:#055d00;
     margin-right: 10px;
     display: inline-block;
     text-align: left;
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    
-    /*border-bottom: 2px solid;*/
-    /*border-color: black;*/
-    /*padding-bottom: 10px; */
    }
 .header-with-icons i {
     vertical-align: middle;
  }
-
  hr {
     border: 0px;
     height: 3px;
     background-color: gray;
     margin: 0;
 }
-
 .fa-leaf {
     color: green;
     font-size: 30px
@@ -52,9 +45,8 @@ body {
      font-size: 30px
     }
 
-
     h2, h3, h4 {
-        color: #505050;
+        color: black;
         font-weight: 500;
         margin-top: 10px;
         margin-bottom: 0px;
@@ -82,10 +74,6 @@ body {
         color: #333333;
         margin-top: 0;
         margin-bottom: 20px;
-    }
-    body {
-        background: white;
-        font-family: Georgia, 'Times New Roman', Times, serif;
     }
    
     img {
@@ -116,13 +104,27 @@ body {
         text-decoration: underline;
         font-weight: bold;
     }
-
    
     .standalone-link {
         display: block;
         margin-bottom: 10px
     }
+   
+    .flex-container {
+        display: flex;
+    
+    }
+    .text-container {
+        flex: 1;
+        padding-right: 20px;
+    }
+    .image-container {
+        flex: 1;
 
+    }
+    .clearfix {
+        clear: both;
+    }
 
     p::first-letter { font-size: 125%;}
 
