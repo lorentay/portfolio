@@ -1,5 +1,10 @@
-*  { 
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
    }
 
    p {
@@ -7,8 +12,8 @@
    }
 
 body {
-    margin: 10px;
-    padding: 0px;
+    margin: 20px;
+    padding: 0;
     background: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -28,6 +33,13 @@ body {
     font-size: 32px;
     font-weight: 700;
     font-style: normal;
+    text-decoration-line: underline;
+    text-decoration-color: green;
+    text-decoration-style: double;
+    text-decoration-thickness: auto;
+    letter-spacing: 2px;
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
    }
 
 .header-with-icons i {
@@ -55,6 +67,7 @@ h2, h3, h4 {
     font-weight: 500;
     margin-top: 10px;
     margin-bottom: 0px;
+    font-variant: small-caps;
 }
 
  h2 {
@@ -101,12 +114,14 @@ li {
     color: #333333;
     margin-top: 0;
     margin-bottom: 20px;
+    text-transform: capitalize;
 }
    
 img {
     box-shadow: 4px 4px 8px #333333;
     margin-bottom: 20px;
     transition: box-shadow 0.5s ease-in-out;
+    
 }
 
 img:hover {
